@@ -95,7 +95,7 @@ public class PostInLinkedin {
         //wait.until(ExpectedConditions.elementToBeClickable((By.cssSelector("a[href*='logout']")))).click();
         driver.findElement(By.cssSelector("a[href*='logout']")).click();
         Thread.sleep(3000);
-        System.out.println("end Test case: testCase02");
+        System.out.println("end Test case: testCase01");
     }
 
 
