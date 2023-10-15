@@ -42,7 +42,7 @@ public class BookMyShowCountHyperlinks {
         System.out.println("Start Test case: testCase01");
 
         // Navigate to "www.bookmyshow.com"  
-        driver.get("https://in.bookmyshow.com/");
+        driver.get("https://in.bookmyshow.com/explore/home/chennai");
         Thread.sleep(3000);
         // Get the count of hyperlinks Using Locator "XPath" //a[@href] / size()
         // Print the count of hyperlinks  
